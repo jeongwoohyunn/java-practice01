@@ -7,10 +7,10 @@ public class Prob1 {
 		int input = scanner.nextInt();
 		if(input%3==0)
 		{
-			System.out.println("3의 배수입니다.");
+			System.out.println("3의 배수입니다. ");
 		}
 		else{
-			System.out.println("3의 배수가 아닙니다.");
+			System.out.println("3의 배수가 아닙니다. ");
 		}
 		scanner.close();
 	}
