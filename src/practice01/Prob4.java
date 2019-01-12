@@ -9,9 +9,9 @@ public class Prob4 {
 		String message;
 		String a = new String();
 		Scanner scanner = new Scanner(System.in);
-		message = scanner.nextLine();
+		message = scanner.nextLine();//nextint,nextline
 		for (int j = 0; j < message.length(); j++) {
-			a+=message.charAt(j);
+			a+=message.charAt(j);//문자하나씩 뽑아오기 변수.charAt
 			System.out.println(a);
 		}
 
